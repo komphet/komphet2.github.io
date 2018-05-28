@@ -1,0 +1,87 @@
+
+#calculator{
+	width: 480px;
+	height: 580px;
+	
+	margin: 100px auto;
+	padding: 20px 20px 20px;
+	
+	background: #363E40;
+	border-radius: 3px;
+}
+#screen{
+	overflow: scroll;
+	height: 100px;
+	width: 460px;
+	margin-bottom: 15px;
+	margin-left: : 15px;
+	float: right;
+	
+	padding: 0 10px;
+	background-color: #C0C0C0;
+	border-radius: 3px;
+	
+	/* Typography */
+	font-size: 60px;
+	line-height: 80px;
+	color: black;
+	text-align: right;
+	letter-spacing: 1px;
+}
+button{
+	float: left;
+	/*property is used for positioning and layout on web pages
+	left right none
+	*/
+	position: relative;
+	/*
+	positioned using the top, bottom, left, and right properties
+	*/
+	top: 0;
+
+	cursor: pointer;
+
+	width: 100px;
+	height: 75px;
+	
+	background: #FFFF66;
+	border-radius: 2px;
+	
+	margin: 10px 10px 10px 10px;
+	/*
+	margin-top 
+	margin-right 
+	margin-bottom 
+	margin-left 
+	*/
+	color: black;
+	font-size: 30px;
+	line-height: 36px;
+	text-align: center;
+	
+	user-select: none;
+	/*
+	prevent selectioin text indside
+	*/
+}
+button:hover{
+	background-color: #FFFF99;
+}
+button.keysOperator {/*Inherited from key*/
+	margin-right: 0px;
+	color: black;
+}
+button.eval{
+	background: #808080;
+	color: #white;
+}
+button.clear{
+	background: #FF9FA8;
+	color: white;
+}
+button.back{
+	margin-left: 250px;
+	background: #FF9F00;
+	color: white;
+	margin-right: 0;
+}

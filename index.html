@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<link rel="stylesheet" type="text/css" href="style.css">
+<html>
+<head>
+	<title>Calculator</title>
+	<!--The required rel attribute specifies the relationship between the current document and the linked document/resource. 
+	The type  specify the media type-->
+</head>
+<body>
+<script src="main.js"></script>
+	<div id="calculator">
+		<div id="screen" value=""></div>
+		<button class="clear" 	onClick="ClearTextField()">C</button>
+		<button class="back" 	onClick="DelTexField()"><</button>
+		<button onClick="AddValueToTextField('7')">7</button>
+		<button onClick="AddValueToTextField('8')">8</button>
+		<button onClick="AddValueToTextField('9')">9</butoon>
+		<button calss="keysOperator" onClick="AddValueToTextField('/')">/</button>
+		<button onClick="AddValueToTextField('4')">4</button>
+		<button onClick="AddValueToTextField('5')">5</button>
+		<button onClick="AddValueToTextField('6')">6</button>
+		<button class="keysOperator" onClick="AddValueToTextField('*')">*</button>
+		<button onClick="AddValueToTextField('1')">1</button>
+		<button onClick="AddValueToTextField('2')">2</button>
+		<button onClick="AddValueToTextField('3')">3</button>
+		<button class="keysOperator" onClick="AddValueToTextField('-')">-</button>
+		<button onClick="AddValueToTextField('.')">.</button>
+		<button onClick="AddValueToTextField('0')">0</button>
+		<button class="eval" onClick="Evaluate()">=</button>
+		<button class="keysOperator" onClick="AddValueToTextField('+')">+</button>
+	</div>
+</body>
+</html>
